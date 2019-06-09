@@ -1,0 +1,24 @@
+Stwórz aplikację w formie słownika polsko - angielskiego.
+Dodaj w aplikacji parsowanie (interpretowanie wejścia użytkownika).
+
+Stwórz klasę słownik, która posiada Mapę tłumaczeń. (zastanów się na konstrukcją mapy - co powinno być kluczem a co wartością).
+
+Dodaj opcję dodawania tłumaczeń:
+- metoda dodajTłumaczenie(String poPolsku, String poAngielsku);
+
+Dodaj opcję sprawdzania tłumaczeń:
+- metoda sprawdzTłumaczenie(String poPolsku); - zwraca tłumaczenie angielskie słowa.
+
+
+Stwórz maina a tam rozbudowany w opcje switch. Użytkownik może wpisać:
+dodaj uczyć teach
+dodaj sprawdzać check
+dodaj rachunek check
+
+Następnie użyć:
+tłumacz uczyć
+
+aplikacja powinna zwracać 'teach'
+Jesli podamy słowo które nie istnieje zwróć "Brak tłumaczenia":
+tłumacz ławka
+Brak tłumaczenia
